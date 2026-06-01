@@ -1,0 +1,27 @@
+# Node dependencies and builds
+node_modules/
+dist/
+.env
+
+# Python compilation and environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+.pytest_cache/
+
+# Local databases
+*.db
+*.sqlite3
+
+# System and IDE folders
+.idea/
+.vscode/
+.gemini/
+artifacts/
+*.webp
+*.mp4
+.DS_Store

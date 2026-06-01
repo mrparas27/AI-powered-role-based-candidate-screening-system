@@ -1,0 +1,13 @@
+Paras Sharma
+Email: paras.sharma@example.com
+Role: AI/ML Engineering Candidate
+
+Summary:
+AI/ML Engineer with 2+ years of experience building predictive models, Retrieval-Augmented Generation (RAG) applications, and backend APIs using Python, PyTorch, Scikit-Learn, FastAPI, and SQL databases.
+
+Experience:
+- Designed and built a custom RAG engine with SQLite vector embeddings and NumPy cosine similarity.
+- Developed decision trees, linear regression, and random forest classification pipelines.
+- Deployed FastAPI endpoints with comprehensive units and automated integration testing.
+
+Skills: Python, PyTorch, Scikit-Learn, NumPy, SQL, FastAPI, Docker, REST APIs, Git, Machine Learning, Deep Learning.
