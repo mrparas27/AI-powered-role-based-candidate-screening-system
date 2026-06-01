@@ -18,6 +18,20 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+@app.get("/")
+def read_root():
+    return {
+        "status": "online",
+        "service": "Evaluator.AI Backend API Server",
+        "docs_url": "/docs",
+        "endpoints": {
+            "admin_status": "/api/admin/status",
+            "resume_upload": "/api/resume/upload",
+            "interview_start": "/api/interview/start",
+            "submit_answer": "/api/interview/answer"
+        }
+    }
+
 @app.on_event("startup")
 def startup_event():
     # Initialize SQLite database schema
