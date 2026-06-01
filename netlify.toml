@@ -1,0 +1,5 @@
+# Netlify Build Configuration for Evaluator.AI Monorepo Frontend
+[build]
+  base = "frontend"
+  command = "npm run build"
+  publish = "dist"
