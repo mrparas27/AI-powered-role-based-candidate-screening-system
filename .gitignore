@@ -16,6 +16,8 @@ env/
 # Local databases
 *.db
 *.sqlite3
+*.sqlite
+data/
 
 # System and IDE folders
 .idea/
